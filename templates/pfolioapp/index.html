@@ -1,0 +1,220 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <nav
+      class="navbar navbar-toggleable-md bg-inverse navbar-inverse fixed-top"
+    >
+      <div class="container">
+        <!-- for the hamburger button on responsive navbars that toggles the navbar in and out -->
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Home</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#Hello">Hello</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <br />
+    <div class="container-fluid p-0">
+      <img
+        class="card-img img-fluid imageCustom"
+        src="kdbg.jpg"
+        alt="Card image cap"
+      />
+      <div class="card-group card-img-overlay">
+        <div class="card cardOpacity">
+          <div class="card-block">
+            <h1 class="card-title type-writer" data="Kunal Datta_"></h1>
+            <h5 class="card-text">Mobile Billing Developer</h5>
+            <p class="card-text">
+              <table class="table table-borderless">
+                <tbody >
+                  <tr>
+                    <td class="tdHeader m-0 p-1">Age:</td>
+                    <td class="tdValue m-0 p-1" id="age"></td>
+                  </tr>
+                  <tr >
+                    <td class="tdHeader m-0 p-1">Phone:</td>
+                    <td class="tdValue m-0 p-1">+91 7030909385</td>
+                  </tr>
+                  <tr>
+                    <td class="tdHeader m-0 p-1">Email:</td>
+                    <td class="tdValue m-0 p-1">dattakunal@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td class="tdHeader m-0 p-1">Address:</td>
+                    <td class="tdValue m-0 p-1">Flat 901, Tower 11A, Amanora Park Town, Pune - 411028, India</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="d-none d-md-block">
+                <a class="btn-floating btn-lg btn-ml" type="button" role="button"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                <a class="btn-floating btn-lg btn-ln" type="button" role="button"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+              </div>
+            </p>
+          </div>
+        </div>
+        <div class="card cardOpacity">
+          <div class="card-block"></div>
+        </div>
+        <div class="card cardOpacity d-none d-md-block">
+          <br><br><br><br>
+          <div class="card cardOpacity">
+            <img
+                class="card-img img-fluid"
+                src="mainphoto.jpg"
+                alt="Card image cap"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container" id="Hello">
+      <h1 class="card-title type-writer" data="Hello_"></h1>
+      <p>I am a scrum master and cuurently working in Amdocs India. I am skilled at writing well-designed, testable and efficient code using current best practices. I am fast learner, hard worker and team player who is proficient in array of programming languages.</p>
+      <button type="button" class="btn">Download CV</button>
+    </div>
+    <div class="container mt-4" id="Resume">
+      <hr class="style1">
+      <h1 class="card-title type-writer" data="Resume_"></h1>
+      <p class="mb-4">I have more than 14 years of experience in software industry. I am always eager to learn new technology and I am a fast learner.</p>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="text-muted mb-2">Education</h5>
+            <ul class="timeline">
+              <li>
+                <span class="list-timeline">Jadavpur University Kolkata</span><br>
+                <span class="text-muted">2002 - 2006</span><br>
+                <span>Bachelor of Information Technology</span><br><br><br>
+              </li>
+              <li>
+                <span class="list-timeline">Lavan Hrad Vidyapith Kolkata</span><br>
+                <span class="text-muted">1990 - 2002</span><br>
+                <span>Higher Secondary and Secondary Education</span><br><br><br>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="text-muted mb-2">Employment</h5>
+            <ul class="timeline">
+              <li>
+                <span class="list-timeline">Amdocs Development Center India Pvt Ltd</span><br>
+                <span class="text-muted">2016 - Present</span><br>
+                <span>Scrum Master</span><br><br><br>
+              </li>
+              <li>
+                <span class="list-timeline">Amdocs Canadian Management Service</span><br>
+                <span class="text-muted">2011 - 2016</span><br>
+                <span>Software Engineering Specialist</span><br><br><br>
+              </li>
+              <li>
+                <span class="list-timeline">Amdocs Development Center India Pvt Ltd</span><br>
+                <span class="text-muted">2009 - 2011</span><br>
+                <span>Senior Subject Matter Expert</span><br><br><br>
+              </li>
+              <li>
+                <span class="list-timeline">Amdocs Development Center Cyprus Pvt Ltd</span><br>
+                <span class="text-muted">2006 - 2009</span><br>
+                <span>Senior Subject Matter Expert</span><br><br><br>
+              </li>
+              <li>
+                <span class="list-timeline">Amdocs Development Center India Pvt Ltd</span><br>
+                <span class="text-muted">2006 - 2006</span><br>
+                <span>Subject Matter Expert</span><br><br><br>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h5 class="text-muted mb-2">General Skills</h5>
+        <div class="row mb-md-2">
+          <div class="col-md">
+            C/C++<br>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-inverse" style="width:90%">90%</div>
+            </div>
+          </div>
+          <div class="col-md">
+            Python<br>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-inverse" style="width:80%">80%</div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-md-2">
+          <div class="col-md">
+            Javascript<br>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-inverse" style="width:70%">70%</div>
+            </div>
+          </div>
+          <div class="col-md">
+            HTML<br>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-inverse" style="width:80%">80%</div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-md-2">
+          <div class="col-md">
+            CSS<br>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-inverse" style="width:50%">50%</div>
+            </div>
+          </div>
+          <div class="col-md">
+            Java<br>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-inverse" style="width:60%">60%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container-fluid pb-5 bg-inverse text-white" id="Contact">
+      <h2 class="type-writer pt-3 pl-3" data="Get in touch_"></h2>
+      <form class="col-lg-6 offset-lg-3">
+        <div class="row justify-content-center pt-3">
+          <div class="card bg-inverse text-white">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Type the message here" id="text_area" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn button-white">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+{% endblock %}
